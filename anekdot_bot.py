@@ -6,7 +6,7 @@ from anekdoty_keyboards import ikb, like_keyboard
 
 from anekdoty import get_joke
 
-TOKEN_API = '6807020278:AAFaw5mN39WyENSCpY4PgsmrJv2g7Ogqt8M'
+TOKEN_API = 'YOUR_BOT_TOKEN'
 
 bot = Bot(TOKEN_API)
 dp = Dispatcher(bot)
