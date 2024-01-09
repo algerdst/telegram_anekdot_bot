@@ -17,7 +17,7 @@ async def on_startup(_):
     print('Бот был успешно запущен')
 
 
-with open('../logging.txt', 'a', encoding='utf-8') as file:
+with open('../logging.txt', 'a', encoding='utf-8') as file: #Открытие файла логов
     # Обработчик команды /start
     @dp.message_handler(commands=['start'])
     async def start_command(message: types.Message):
